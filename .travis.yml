@@ -10,7 +10,11 @@ install:
   - pip install tox
 
 script:
-  - tox
+  - |
+    set -x
+    TOX_PY="py${TRAVIS_PYTHON_VERSION/./}"
+    tox
+    set +x
 
 notifications:
   email: false
