@@ -12,6 +12,4 @@ setup(
         'numpy>=1.13.0',
         'scipy>=1.0.0',
     ],
-    tests_require=['pytest'],
-    setup_requires=['pytest_runner'],
 )

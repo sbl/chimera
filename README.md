@@ -1,4 +1,5 @@
 # chimera synthesis
+[![Build Status](https://travis-ci.org/sbl/chimera.svg?branch=master)](https://travis-ci.org/sbl/chimera)
 
 > Any sound can be mathematically factored into the product of a slowly
 > varying envelope (also called modulation), and a rapidly-varying fine time
